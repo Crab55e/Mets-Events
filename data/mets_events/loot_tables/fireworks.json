@@ -1,0 +1,79 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_nugget",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Fireworks: {Flight: 2b, Explosions: [{Type: 1b, Colors: [I; 16713728]}]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_nugget",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Fireworks: {Flight: 2b, Explosions: [{Type: 1b, Colors: [I; 16736768]}]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_nugget",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Fireworks: {Flight: 2b, Explosions: [{Type: 1b, Colors: [I; 16771584]}]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_nugget",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Fireworks: {Flight: 2b, Explosions: [{Type: 1b, Colors: [I; 3145472]}]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_nugget",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Fireworks: {Flight: 2b, Explosions: [{Type: 1b, Colors: [I; 58879]}]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_nugget",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Fireworks: {Flight: 2b, Explosions: [{Type: 1b, Colors: [I; 1376511]}]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_nugget",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Fireworks: {Flight: 2b, Explosions: [{Type: 1b, Colors: [I; 12059903]}]}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

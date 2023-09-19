@@ -1,0 +1,24 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "offhand": {
+                            "nbt": "{CrabSparkles:1b}"
+                        }
+                    }
+                },
+                "item": {
+                    "items": [
+                        "minecraft:porkchop"
+                    ]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mets_events:player/sparkles/using/pig_sparkles"
+    }
+}

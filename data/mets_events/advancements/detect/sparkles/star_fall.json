@@ -1,0 +1,61 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:random_chance",
+                        "chance": 0.001
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "player",
+                                "gamemode": "survival"
+                            },
+                            "location": {
+                                "position": {
+                                    "x": {
+                                        "min": -512,
+                                        "max": 512
+                                    },
+                                    "y": {
+                                        "min": -512,
+                                        "max": 512
+                                    },
+                                    "z": {
+                                        "min": -512,
+                                        "max": 512
+                                    }
+                                },
+                                "dimension": "minecraft:overworld"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "equipment": {
+                                    "head": {
+                                        "items": [
+                                            "minecraft:iron_helmet"
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "mets_events:player/sparkles/star_fall/chance"
+    }
+}

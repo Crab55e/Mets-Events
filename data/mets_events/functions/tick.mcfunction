@@ -1,0 +1,3 @@
+execute if entity @e[type=pig,predicate=mets_events:entity/pig_sparkles/is_valid_bullet,limit=1] as @e[type=pig,predicate=mets_events:entity/pig_sparkles/is_valid_bullet] at @s run function mets_events:entity/pig_sparkles/bullet
+execute if entity @e[type=falling_block,tag=mets_events.crab_sparkles.star_fall.barrel,limit=1] as @e[type=falling_block,tag=mets_events.crab_sparkles.star_fall.barrel] at @s run function mets_events:entity/star_fall/barrel
+execute if entity @e[type=area_effect_cloud,tag=mets_events.crab_sparkles.star_fall.barrel.point,limit=1] as @e[type=area_effect_cloud,tag=mets_events.crab_sparkles.star_fall.barrel.point] if data entity @s {Age:3599} at @s run function mets_events:entity/star_fall/point_break
